@@ -1,0 +1,127 @@
+<!-- profile.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-1/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Program Konversi Mata Uang</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #6b6a6a;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ddd;
+        }
+
+        .container {
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            width: 80%;
+            max-width: 900px;
+            margin: auto;
+            transition: transform 0.3s ease-in-out;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .social-media img {
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 style="color: #fff;">Program Konversi Mata Uang</h2>
+    </header>
+
+    <nav>
+        <a href="konversimatauang.html">Konversi Mata Uang</a>
+        <a href="listmatauang.html">Daftar Mata Uang</a>
+        <a href="profil.html">Profile</a>
+    </nav>
+
+    <div class="container">
+        <div class="profile">
+            <img src="https://lh3.googleusercontent.com/a/ACg8ocI5GnorBaUzVKIZPvZTmbRI-4uOYIziyoL84I6aMEO4jQ=s288-c-no" alt="Foto">
+            <h3>Jimmy Pratama Setiadi</h3>
+            <h4>20.01.55.0006</h4>
+            <p>Hi! Nama saya Jimmy, Mahasiswa Prodi Sistem Informasi Universitas STIKUBANK Semarang.<br> Program Konversi Mata Uang ini dibuat sebagai bentuk penyelesaian UAS Mata Kuliah Web Service Development.</p>
+        </div>
+
+        <div class="mb-4 pb-2">
+            <button type="button" class="btn btn-outline-primary btn-floating">
+             <a href="https://www.instagram.com/jimmy_jps/"><i class="fab fa-instagram fa-lg"></i></a>
+            </button>
+            <button type="button" class="btn btn-outline-primary btn-floating">
+              <a href="https://x.com/jimmy_pratama29?t=UZ7nuQ5hYGv6oDjW7uaW5w&s=08"><i class="fab fa-twitter fa-lg"></i></a>
+            </button>
+            <button type="button" class="btn btn-outline-primary btn-floating">
+              <a href="https://wa.me/6281226856295"><i class="fab fa-whatsapp fa-lg"></i></a>
+            </button>
+        </div>
+        <a href="mailto:jimmypratama.std@gmail.com" class="btn btn-primary btn-rounded btn-lg">Kirim Email</a>
+    </div>
+</body>
+</html>
